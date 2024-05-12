@@ -1,0 +1,48 @@
+nav{
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    box-sizing:border-box;
+    background-color: rgba(23, 22, 22, 0.6);
+    border-bottom: 2px solid rgb(34, 31, 31);
+
+}
+.headul{
+    position: relative;
+    left: 16%;
+}
+
+.headul li a{
+line-height: 80px;
+color: rgb(61, 209, 204);
+padding: 12px 30px;
+text-decoration: none;
+font-size: 17px;
+font-weight: bold;
+text-transform: uppercase;
+transition: 0.5s;
+border: 1px;
+}
+
+.headul li a:hover{
+background-color: rgba(8, 8, 8, 0.7);
+border-radius: 6px;
+color: rgb(220, 223, 223);
+}
+
+.laze{
+
+    position:absolute;
+    left: 85px;
+    bottom: 30px;
+}
+
+.navbar-brand img{
+    padding-bottom: 25%;
+}
+
+.wady {
+    cursor:default;
+    color: aliceblue;
+    margin-right: 2%;
+}

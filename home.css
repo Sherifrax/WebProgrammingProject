@@ -1,0 +1,101 @@
+li{
+    list-style-type: none;
+}
+
+li a{
+    text-decoration: none;
+}
+
+svg{
+    margin-bottom: 5px;
+}
+
+.nav-link {
+    transition: 0.8s;
+    font-size: 20px;
+}
+
+.nav-link:hover {
+    background: #d582ff;
+    color: white;
+}
+
+h2{
+    position: relative;
+    top: 50%;
+    font-size: 40px;
+    letter-spacing: 15px;
+    color: #0e3742;
+    text-transform: uppercase;
+    width: 100%;
+    
+    text-align: center;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,#0004) ;
+    line-height: 0.70em;
+    outline: none;
+    animation: animate 5s linear infinite;
+    margin-bottom: 8%;
+    margin-top: 5%;
+}
+
+@keyframes animate{
+0%,18%,20%,50.1%,60%,65.1%,80%,90.1%,92%
+{
+    color: #0e3742;
+    text-shadow:none ;
+}
+
+18.1%,20.1%,30%,50%,60.1%,65%,80.1%,90%,92.1%,100%
+{
+
+color: #fff;
+text-shadow: 0 0 10px #e53ce5,
+0 0 20px #e53ce5,
+0 0 40px #e53ce5,
+0 0 80px #e53ce5,
+0 0 160px #e53ce5
+;
+}
+}
+
+#homecarousel{
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.578) 20px 20px 40px 0px;
+}
+
+#back{
+    background: linear-gradient(to bottom right, #49e8db, #9e39d1) no-repeat;
+}
+
+.homecontent{
+    width: 90%;
+    margin-left: 5%;
+    background-color: rgba(152, 152, 152, 0.4);
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 0.5%;
+    
+}
+
+.brr {
+    border-radius: 15px;
+}
+
+#homebook{
+    margin-bottom: 2%;
+    margin-top: 2%;
+    overflow: hidden;
+}
+
+#homebook a{
+    margin: 0%;
+    width: 25%;
+    height: 100%;
+    font-size: 1.6rem;
+}
+
+

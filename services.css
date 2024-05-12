@@ -1,0 +1,14 @@
+#back{
+    background: linear-gradient(to bottom right, #49e8db, #9e39d1) no-repeat;
+}
+
+.servicecontent{
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 15px;
+    background-color: rgba(240, 248, 255, 0.505);
+}
+
+.servicecontent h4{
+    padding-top: 15px;
+}
